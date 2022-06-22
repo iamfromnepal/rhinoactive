@@ -1,0 +1,358 @@
+.site-wrapper {
+    position: relative;
+    overflow: hidden;
+    min-width: 320px;
+    font-family: 'Poppins', sans-serif;
+    background: url(../images/body-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1120px;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-primary {
+    background: #fff;
+    color: #000;
+    max-width: 190px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px;
+    border-color: #fff;
+    transition: .2s all ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #ee3224;
+    color: #fff;
+    border-color: #ee3224;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary.w-lg {
+    max-width: 260px;
+}
+
+.filler-bg {
+    background-image: url(../images/filler-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.overlay-gray:before {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.overlay-dgray:before {
+    background-color: #393839;
+}
+
+.overlay-red:before {
+    background-color: #ee3224;
+}
+
+.overlay-dred:before {
+    background-color: #bb2519;
+}
+
+.overlay-ltred:before {
+    background-color: rgba(238, 50, 36, .8);
+}
+
+.text-white *:not(.btn) {
+    color: #fff;
+}
+
+.color-red,
+.color-red i {
+    color: #ee3224 !important;
+}
+
+.form .select-wrap {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+}
+
+.form .select-wrap i {
+    color: #ee3224;
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+}
+
+.form .select-wrap .right {
+    left: auto;
+    right: 14px;
+}
+
+.form select {
+    background-color: transparent;
+    border: 0;
+    padding: 8px 40px 9px;
+    cursor: pointer;
+}
+
+.cards-wrap .card {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    order: 3;
+}
+
+.cards-wrap .card .holder {
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 400px;
+    height: 100%;
+    padding: 50px 22px 45px;
+}
+
+.cards-wrap .card .holder-sm {
+    min-height: 330px;
+}
+
+.cards-wrap .card .icon-wrap {
+    margin-bottom: 20px;
+}
+
+.cards-wrap .card .icon-wrap img {
+    max-width: 32px;
+    max-height: 45px;
+    vertical-align: top;
+}
+
+.cards-wrap .card .icon-wrap-lg img {
+    max-width: 70px;
+}
+
+.cards-wrap .card .icon {
+    font-size: 35px;
+}
+
+.cards-wrap .card .event-name {
+    font-weight: 500;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 21px;
+}
+
+.cards-wrap .card h2 {
+    font-size: 27px;
+    line-height: 1.1;
+}
+
+.cards-wrap .card .text-lg {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.card-eventlist .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards-wrap .card-eventlist .holder {
+    background: #f1f1f1;
+    padding: 24px 22px 15px;
+}
+
+.card-eventlist .top h1 {
+    width: calc(100% - 265px);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+.card-eventlist .top .form {
+    width: 256px;
+}
+
+.card-eventlist {
+    font-size: 14px;
+}
+
+.card-eventlist h4 {
+    margin-bottom: 1px;
+}
+
+.card-eventlist h4 a {
+    color: #000;
+    text-decoration: none;
+    transition: .2s all ease-in-out;
+    font-size: 19px;
+}
+
+.card-eventlist h4 a:hover {
+    color: #ee3224;
+}
+
+.event-list .list {
+    border-bottom: 2px solid #dadde0;
+    padding: 6px 35px 10px 17px;
+    position: relative;
+}
+
+.event-list .list p {
+    margin: 0 0 -3px;
+}
+
+.event-list .list .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    font-size: 26px;
+}
+
+.event-detail span {
+    display: block;
+    margin-bottom: 1px;
+}
+
+.event-detail .date,
+.event-detail i {
+    color: #ee3224;
+}
+
+.event-detail i {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tags-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.tags-lists .left {
+    width: 100px;
+    order: 1;
+}
+
+.tags-lists .right {
+    width: calc(100% - 120px);
+    text-align: right;
+    order: 2;
+}
+
+.tags-lists .viewall {
+    color: #ee3224;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tags-lists .viewall i {
+    color: #000;
+    transition: .2s all ease-in-out;
+}
+
+.tags-lists .viewall:hover i {
+    color: #ee3224;
+    transform: translateX(5px);
+}
+
+.tags-lists .tag {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 120px;
+    padding: 6px 13px;
+    border-radius: 5px;
+    background: #fff;
+    color: #ee3224;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 5px 10px 5px 5px;
+    text-align: center;
+    transition: .2s all ease-in-out;
+}
+
+.tags-lists .tag:hover {
+    transform: translateY(-3px);
+    /* background: #ee3224; */
+    /* color: #fff; */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+}
+
+@media(max-width: 991px) {
+    .card-eventlist .top h1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-eventlist .top .form {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+
+    .btn-primary {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    .cards-wrap .card {
+        order: inherit;
+    }
+
+    .cards-wrap .card .holder {
+        min-height: 100px;
+    }
+
+    .cards-wrap .card .holder h2 {
+        margin-bottom: 20px;
+    }
+
+    .cards-wrap .card .text-lg {
+        font-size: 30px;
+    }
+    
+    .event-list .list {
+        padding: 6px 20px 6px 15px;
+    }
+
+    .event-list .list .icon {
+        right: 0;
+    }
+
+    .tags-lists .left,
+    .tags-lists .right {
+        width: 100%;
+        order: inherit;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
